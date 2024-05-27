@@ -1,22 +1,34 @@
-#A code for a simple calculator
-def sum(a, b):
-    return a + b
-def diff(a, b):
-    return a - b
-def div(a, b):
-    return a/b
-def product(a, b):
-    return a * b
+def add(num1, num2):
+    return num1 + num2
+
+def subtract(num1, num2):
+    return num1 - num2
+
+def multiply(num1, num2):
+    return num1 * num2
+
+def divide(num1, num2):
+    if num2 != 0:
+        return num1 / num2
+    else:
+        return "Cannot divide by zero!"
+
 def main():
-    a = int(input("Enter value for A: "))
-    b = int(input("Enter value for B: "))
-    #sum
-    print("The sum is {}".format(sum(a, b)))
-    #difference
-    print("The difference is {}".format(diff(a, b)))
-    #division
-    print("The division is {}".format(div(a, b)))
-    #product
-    print("The product is {}".format(product(a, b)))
+    while True:
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
+
+        # Calculate and display the results for all operations
+        print("Addition:", add(num1, num2))
+        print("Subtraction:", subtract(num1, num2))
+        print("Multiplication:", multiply(num1, num2))
+        print("Division:", divide(num1, num2))
+
+        # Ask the user if they want to perform another calculation
+        choice = input("Do you wish to perform another calculation? (1: Yes, 2: No): ")
+        if choice == '2':
+            break
+        elif choice != '1':
+            print("Invalid choice. Please enter '1' for Yes or '2' for No.")
 
 main()
