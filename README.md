@@ -1,5 +1,7 @@
 ### Simple Calculator ###
 
+Here's [`Output`](https://mouricedevs.github.io/calculator)
+
 - How to run on termux/vps:
 - Copy paste the following cmds one by one
 ```
