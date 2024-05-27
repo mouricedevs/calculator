@@ -1,8 +1,10 @@
 ### Simple Calculator ###
 
-Here's [`Output`](https://mouricedevs.github.io/calculator)
+- Here's example html [`Output`](https://mouricedevs.github.io/calculator)
+- See Output in form of [`Images`](https://github.com/calculator/screenshots)
+- You can also run it via [`Pydroid Android App`](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3) by pasting the code from [`main.py`](https://github.com/mouricedevs/calculator/main.py) folder on the app then hit run icon.
 
-- How to run on termux/vps:
+### How to run on termux/vps: ###
 - Copy paste the following cmds one by one
 ```
 apt update
@@ -31,3 +33,5 @@ cd calculator
 ```
 python main.py
 ```
+
+https://github.com/mouricedevs/calculator/screenshots/html,css,js.jpg
