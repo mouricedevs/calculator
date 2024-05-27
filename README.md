@@ -34,4 +34,3 @@ cd calculator
 python main.py
 ```
 
-https://github.com/mouricedevs/calculator/screenshots/html,css,js.jpg
