@@ -1,7 +1,7 @@
 ### Simple Calculator ###
 
 - Here's example html [`Output`](https://mouricedevs.github.io/calculator)
-- See Output in form of [`Images`](https://github.com/calculator/screenshots)
+- See Output in form of [`Images1`](https://github.com/mouricedevs/calculator/tree/main/screenshots/html,css,js.jpg) and [`Images2`](https://github.com/mouricedevs/calculator/tree/main/screenshots/termux,pydroid.jpg)
 - You can also run it via [`Pydroid Android App`](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3) by pasting the code from [`main.py`](https://github.com/mouricedevs/calculator/main.py) folder on the app then hit run icon.
 
 ### How to run on termux/vps: ###
@@ -33,4 +33,6 @@ cd calculator
 ```
 python main.py
 ```
-
+- Good Luck
+  
+[©2024 GIFTED TECH](github.com/mouricedevs)
